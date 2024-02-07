@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FDFDFD;
+}
+.card{
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-height: auto;
+    background-color: #FFF;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-image: url(IMG_20231213_095349_537~3.jpg);
+    background-position: center;
+    background-size: 100%;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.botao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(145, 214, 164, 1);
+    border-radius: 5px;
+    width: 70%;
+}
+.botao1 img{
+    display: flex;
+    height: 20px;
+}
+.botoes a{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #FFF;
+    margin: 0 auto;
+}
+.botao1:hover{
+    background-color: rgba(114, 163, 127, 1);
+    transition: all 0.3s ease-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 80%;
+        margin-top: 40%;
+    }
+}
